@@ -1,15 +1,15 @@
 import getRandomNumber from "../../utils/getRandomNumber";
 
 export enum TrainTypes {
-  "Ekspres",
-  "Pośpieszny",
-  "Osobowy przyśpieszony",
-  "Osobowy",
-  "Towarowy",
-  "Zdawczy",
-  "Luz",
-  "Służbowy",
-  "Gospodarczy"
+  "Express",
+  "Hurried",
+  "Expedied Passenger Car",
+  "Passenger",
+  "Freight",
+  "Reporter",
+  "Light",
+  "Business",
+  "Economic"
 }
 
 
