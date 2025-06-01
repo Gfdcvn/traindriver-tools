@@ -9,25 +9,25 @@ const Home: NextPage = () => {
   return (
     <MainLayout>
       <Head>
-        <title>TD2 Tools</title>
-        <meta name="description" content="Narzędzia dla symulatora https://td2.info.pl" />
+        <title>Train Driver 2 English Tools</title>
+        <meta name="description" content="Tools for sim https://td2.info.pl" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Witaj na stronie z narzędziami do <a href="https://td2.info.pl">Symulatora Train Driver 2!</a>
+         Welcome to the English Tools website for <a href="https://td2.info.pl">Train Driver 2!</a>
         </h1>
 
         <p className={styles.description}>
-          Znajdziesz tu szereg narzędzi przydatnych podczas rozgrywki!
+          Here you can find a few useful gameplay tools!
         </p>
 
         <div className={styles.grid}>
           <Link href="train-number">
             <a className={styles.card}>
-              <h2>Generator Numerów Pociągów &rarr;</h2>
-              <p>Wygeneruj numer pociagu zgodny z regulaminem symulatora TD2!</p>
+              <h2> Random Train Number Generator &rarr;</h2>
+              <p>Generate a random train number for TD2!</p>
             </a>
           </Link>
         </div>
