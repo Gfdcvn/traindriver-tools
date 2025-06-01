@@ -13,9 +13,9 @@ const MainLayout: React.FunctionComponent = ({ children }) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          &copy; Kacper Małachowski (Kacper9)
+          &copy; 
         </a>
-        <a href="https://buycoffee.to/malachowskicode" target="_blank"><img src="https://buycoffee.to/btn/buycoffeeto-btn-primary.svg" style={{ width: "150px"}} alt="Postaw mi kawę na buycoffee.to" /></a>
+        
     </footer>
   </>
 );
